@@ -17,7 +17,7 @@ function fib(index) {
  }
 }
 
-// everytime we receive a message on redis we calculate the fibonacci number and store it in redis
+// everytime we insert an index in redis this worker will take it and calculate the fibonacci number for it and then add that number in Redis as well
 sub.on('message', (channel, message) => {
   redisClient.hset('values', message, fib(parseInt(message)));
 });
