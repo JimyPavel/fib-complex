@@ -2,9 +2,9 @@
 Calculating requested n-Fibonacci number. This project uses js, react, expressjs, postgresql, redis
 
 
- -------------------        -----------
+ ===================        ==========
  User submits number    =>   React App 
- -------------------        -----------
+ ===================        ==========
                                  ||
                                  \/
                            -----------------
