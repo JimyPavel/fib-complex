@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import {Component} from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import OtherPage from './OtherPage';
 import Fib from './Fib';
 
-function App() {
+class App extends Component {
   render() {
 	  return (
 	    <div className="App">
